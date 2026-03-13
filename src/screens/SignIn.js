@@ -31,7 +31,7 @@ export const SignInScreen = () => {
 
     return (
         <View>
-            <Text style={{ fontSize: 20, fontWeight: 'bold', alignSelf: 'center', marginTop: 100 }}>SignInScreen</Text>
+            <Text style={styles.signInTitle}>SignInScreen</Text>
             <TextInput
                 style={styles.input}
                 placeholder='Mobile'
